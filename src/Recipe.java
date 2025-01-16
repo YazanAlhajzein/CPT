@@ -1,11 +1,34 @@
+import java.util.ArrayList;
+
 public class Recipe {
-        public static void main(String[] args) {
-            System.out.println("Welcome to recipe!");
-        }
+    private String name;
+    private ArrayList<Ingredient> ingredients;
+    private int value;
+
+    public Recipe(String name, ArrayList<Ingredient> ingredients) {
+        this.name = name;
+        this.ingredients = ingredients;
+        this.value = 0;
     }
 
-class recipeBook {}
+    public String getName() {
+        return name;
+    }
 
-class recipe {}
+    public ArrayList<Ingredient> getIngredients() {
+        return ingredients;
+    }
 
-class ingredient  {}
+    public int getValue() {
+        return value;
+    }
+
+    public void valueAdd(int amount) {
+        value += amount;
+    }
+
+    @Override
+    public String toString() {
+        return ingredients;
+    }
+}

@@ -1,0 +1,7 @@
+pancake
+egg powder: protein
+flour: carb
+milk: dairy
+
+another recipe
+ingredient: type
