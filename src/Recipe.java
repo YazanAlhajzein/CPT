@@ -29,8 +29,11 @@ public class Recipe {
 
     @Override
     public String toString() {
-        String recipe = name + ":\n";
-        // Loop over ingredients
+        String recipe = "";
+        for (Ingredient ingredient : ingredients) {
+            recipe += "- " + ingredient + "\n";
+        }
+
         return recipe;
     }
 }

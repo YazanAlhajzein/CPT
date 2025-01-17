@@ -10,23 +10,18 @@ public class RecipeApp {
 
         ArrayList<Ingredient> inputedIngredients = getInputedIngredients();
 
-
         displayType(inputedIngredients);
         
-
         //assigning values to recipes
         for (Recipe recipe : recipeBook.getRecipes()) {
             int amount = calculateAmount(recipe, inputedIngredients);
             recipe.valueAdd(amount);
         }
 
-
         //Sorting helped by chatGPT
         recipeBook.getRecipes().sort((r1, r2) -> Integer.compare(r2.getValue(), r1.getValue())); 
 
-
         displayRecipes(recipeBook);
-
 
         System.out.println("Would you like to choose a recipe (Y/N)?");
         
@@ -52,7 +47,7 @@ public class RecipeApp {
                 if (yesOrNo()) {
                     break;
                 } else {
-                    System.out.println("Choose a recipe again.");                   
+                    System.out.println("Choose a recipe again? (Y/N)");                   
                 }
             }
         }
@@ -111,26 +106,17 @@ public class RecipeApp {
         
         String inputString = input.nextLine().toLowerCase();
 
-        
-
-
             while (!inputString.equals("")) {
-
                 // Dairy
                 if (Constants.dairy.contains(inputString)) {
                     ingredients.add(new Dairy(inputString));
-                }
-                
-
-                if (inputString.equals("milk") || inputString.equals("cheese")) {
-                    ingredients.add(new Dairy(inputString));
-                } else if (inputString.equals("egg") || inputString.equals("chicken")) {
+                } else if (Constants.protein.contains(inputString)) {
                     ingredients.add(new Protein(inputString));
-                } else if (inputString.equals("flour")) {
+                } else if (Constants.carb.contains(inputString)) {
                     ingredients.add(new Carb(inputString));
-                } else if (inputString.equals("banana")) {
+                } else if (Constants.fruit.contains(inputString)) {
                     ingredients.add(new Fruit(inputString));
-                } else if (inputString.equals("lettuce")) {
+                } else if (Constants.vegetable.contains(inputString)) {
                     ingredients.add(new Vegetable(inputString));
                 } else {
                     System.out.println("Unknown ingredient.");
@@ -149,24 +135,11 @@ public class RecipeApp {
 
     public static void displayType(ArrayList<Ingredient> ingredients) {
         System.out.println("Classifications:");
-       
-        //"instance of" retrieved online
+
         for (Ingredient ingredient : ingredients) { 
             System.out.println(ingredient);
-            // if (ingredient instanceof Dairy) {
-            //     System.out.println(ingredient.getName() + ": dairy");
-            // } else if (ingredient instanceof Protein) {
-            //     System.out.println(ingredient.getName() + ": protein");
-            // } else if (ingredient instanceof Carb) {
-            //     System.out.println(ingredient.getName() + ": carb");
-            // } else if (ingredient instanceof Fruit) {
-            //     System.out.println(ingredient.getName() + ": fruit");
-            // } else if (ingredient instanceof Vegetable) {
-            //     System.out.println(ingredient.getName() + ": vegetable");
-            // } else {
-            //     System.out.println(ingredient.getName() + ": unknown");
-            // }
         }
+        System.out.println("\n");
     }
 
     public static int calculateAmount(Recipe recipe, ArrayList<Ingredient> inputedIngredients) {
@@ -188,11 +161,11 @@ public class RecipeApp {
         for (Recipe recipe : recipeBook.getRecipes()) {
             if (recipe.getValue() > 0) {
                 if (recipe.getValue() > 2) {
-                    System.out.println(recipe.getName() + " (Importance: High (" + recipe.getValue() + "))");
+                    System.out.println(recipe.getName() + " (Importance: High (" + recipe.getValue() + " ingredients matched))");
                 } else if (recipe.getValue() > 1) {
-                    System.out.println(recipe.getName() + " (Importance: Medium (" + recipe.getValue() + "))");
+                    System.out.println(recipe.getName() + " (Importance: Medium (" + recipe.getValue() + " ingredients matched))");
                 } else {
-                    System.out.println(recipe.getName() + " (Importance: Low (" + recipe.getValue() + "))");
+                    System.out.println(recipe.getName() + " (Importance: Low (" + recipe.getValue() + " ingredient matched))");
                 }
             }
         }
