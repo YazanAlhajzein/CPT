@@ -1,9 +1,12 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.LinkedList;
+import java.io.File;
+import java.io.FileNotFoundException;
 
 public class RecipeApp {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
+        // "throws FileNotFoundException" was a quick fix
         Scanner input = new Scanner(System.in);
 
         RecipeBook recipeBook = populateRecipeBook();
@@ -51,48 +54,63 @@ public class RecipeApp {
                 }
             }
         }
-
+        input.close();
+        
         System.out.println("Thank you for using the Recipe Recommendation App!");
 
-        input.close();
     }
 
-    private static RecipeBook populateRecipeBook() {
-        //Making ingredients
-        Ingredient milk = new Dairy("milk");
-        Ingredient egg = new Protein("egg");
-        Ingredient flour = new Carb("flour");
-        Ingredient cheese = new Dairy("cheese");
-        Ingredient banana = new Fruit("banana");
-        Ingredient chicken = new Protein("chicken");
-        Ingredient lettuce = new Vegetable("lettuce");
+    private static RecipeBook populateRecipeBook() throws FileNotFoundException {
+        //"throws FileNotFoundException" is a quick fix
+        RecipeBook recipeBook = new RecipeBook(new LinkedList<>());
+        Scanner input = new Scanner(new File("CPT/src/recipes.txt"));
+        Recipe currentRecipe = null;
+    
+        while (input.hasNextLine()) {
+            String line = input.nextLine().trim();
+    
+            if (line.contains(":")) {
+                String[] parts = line.split(":");
+                String name = parts[0].trim();
+                String type = parts[1].trim().toLowerCase();
+    
+                Ingredient ingredient = null;
+                switch (type) {
+                    case "protein":
+                        ingredient = new Protein(name);
+                        break;
+                    case "carb":
+                        ingredient = new Carb(name);
+                        break;
+                    case "dairy":
+                        ingredient = new Dairy(name);
+                        break;
+                    case "fruit":
+                        ingredient = new Fruit(name);
+                        break;
+                    case "vegetable":
+                        ingredient = new Vegetable(name);
+                        break;
+                }
+    
+                if (ingredient != null && currentRecipe != null) {
+                    currentRecipe.addIngredient(ingredient);
+                }
+            } else {
+                if (currentRecipe != null) {
+                    recipeBook.addRecipe(currentRecipe);
+                }
 
+                currentRecipe = new Recipe(line, new ArrayList<>());
+            }
+        }
 
-        //Making recipes
-        ArrayList<Ingredient> pancakeList = new ArrayList<>();
-        pancakeList.add(milk);
-        pancakeList.add(egg);
-        pancakeList.add(flour);
-        Recipe pancake = new Recipe("pancakes", pancakeList);
+        if (currentRecipe != null) {
+            recipeBook.addRecipe(currentRecipe);
+        }
+    
+        input.close();
 
-        ArrayList<Ingredient> omeletteList = new ArrayList<>();
-        omeletteList.add(egg);
-        omeletteList.add(cheese);
-        omeletteList.add(flour);
-        Recipe omelette = new Recipe("omelette", omeletteList);
-
-        ArrayList<Ingredient> smoothieList = new ArrayList<>();
-        smoothieList.add(milk);
-        smoothieList.add(banana);
-        Recipe smoothie = new Recipe("smoothie", smoothieList);
-
-
-        //Adding recipes to the recipe book
-        LinkedList<Recipe> recipeBookList = new LinkedList<>();
-        RecipeBook recipeBook = new RecipeBook(recipeBookList);
-        recipeBook.addRecipe(pancake);
-        recipeBook.addRecipe(omelette);
-        recipeBook.addRecipe(smoothie);
         return recipeBook;
     }
 

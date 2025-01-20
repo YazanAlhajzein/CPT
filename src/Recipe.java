@@ -27,6 +27,10 @@ public class Recipe {
         value += amount;
     }
 
+    public void addIngredient(Ingredient ingredient) {
+        ingredients.add(ingredient);
+    }
+
     @Override
     public String toString() {
         String recipe = "";
