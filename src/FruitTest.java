@@ -1,3 +1,9 @@
+/**
+ * author: Yazan Alhajzein
+ * date: 01/19/2025
+ * Fruit Test class
+ */
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
