@@ -1,7 +1,1040 @@
-pancake
-egg powder: protein
-flour: carb
-milk: dairy
+pancake  
+egg powder:protein  
+flour:carb  
+milk:dairy
 
-another recipe
-ingredient: type
+smoothie  
+banana:fruit  
+milk:dairy  
+yogurt:dairy
+
+omelette  
+egg powder:protein  
+spinach:vegetable  
+cheese:dairy
+
+salad  
+lettuce:vegetable  
+tomato:vegetable  
+cucumber:vegetable
+
+muffin  
+flour:carb  
+egg powder:protein  
+milk:dairy
+
+toast  
+bread:carb  
+butter:dairy
+
+fruit salad  
+apple:fruit  
+orange:fruit  
+grapes:fruit
+
+scrambled eggs  
+egg powder:protein  
+milk:dairy  
+butter:dairy
+
+pasta  
+pasta:carb  
+tomato:vegetable  
+cheese:dairy
+
+grilled cheese  
+bread:carb  
+cheese:dairy  
+butter:dairy
+
+banana bread  
+banana:fruit  
+flour:carb  
+egg powder:protein
+
+yogurt parfait  
+yogurt:dairy  
+banana:fruit  
+granola:carb
+
+egg sandwich  
+bread:carb  
+egg powder:protein  
+cheese:dairy
+
+smoothie bowl  
+strawberry:fruit  
+banana:fruit  
+yogurt:dairy
+
+mashed potatoes  
+potato:vegetable  
+butter:dairy  
+milk:dairy
+
+fruit smoothie  
+mango:fruit  
+banana:fruit  
+milk:dairy
+
+rice pudding  
+rice:carb  
+milk:dairy  
+sugar:carb
+
+scrambled tofu  
+tofu:protein  
+spinach:vegetable
+
+baked apple  
+apple:fruit  
+cinnamon:carb  
+honey:carb
+
+cheese quesadilla  
+tortilla:carb  
+cheese:dairy  
+butter:dairy
+
+carrot sticks  
+carrot:vegetable  
+hummus:protein
+
+fruit and cheese  
+grapes:fruit  
+cheese:dairy
+
+egg salad  
+egg powder:protein  
+lettuce:vegetable  
+mayo:carb
+
+apple cinnamon oats  
+apple:fruit  
+oats:carb  
+cinnamon:carb
+
+vegetable stir fry  
+bell pepper:vegetable  
+carrot:vegetable  
+broccoli:vegetable
+
+protein smoothie  
+spinach:vegetable  
+banana:fruit  
+protein powder:protein
+
+avocado toast  
+bread:carb  
+avocado:vegetable  
+egg powder:protein
+
+chicken salad  
+chicken:protein  
+lettuce:vegetable  
+tomato:vegetable
+
+yogurt with honey  
+yogurt:dairy  
+honey:carb
+
+fruit dip  
+strawberry:fruit  
+cream cheese:dairy  
+sugar:carb
+
+cheese sticks  
+cheese:dairy
+
+veggie wrap  
+tortilla:carb  
+lettuce:vegetable  
+tomato:vegetable
+
+baked potato  
+potato:vegetable  
+butter:dairy  
+cheese:dairy
+
+salmon with vegetables  
+salmon:protein  
+broccoli:vegetable  
+carrot:vegetable
+
+scrambled eggs with spinach  
+egg powder:protein  
+spinach:vegetable  
+butter:dairy
+
+rice and beans  
+rice:carb  
+beans:protein
+
+fruit parfait  
+blueberry:fruit  
+yogurt:dairy  
+granola:carb
+
+chicken wraps  
+chicken:protein  
+tortilla:carb  
+lettuce:vegetable
+
+vegetable curry  
+carrot:vegetable  
+potato:vegetable  
+spinach:vegetable
+
+fruit popsicles  
+strawberry:fruit  
+banana:fruit  
+yogurt:dairy
+
+pasta salad  
+pasta:carb  
+tomato:vegetable  
+olive oil:carb
+
+cheese omelette  
+egg powder:protein  
+cheese:dairy  
+spinach:vegetable
+
+berry smoothie  
+blueberry:fruit  
+strawberry:fruit  
+yogurt:dairy
+
+rice with egg  
+rice:carb  
+egg powder:protein  
+soy sauce:carb
+
+fruit bowl  
+melon:fruit  
+kiwi:fruit  
+grapes:fruit
+
+baked egg  
+egg powder:protein  
+spinach:vegetable  
+cheese:dairy
+
+peanut butter toast  
+bread:carb  
+peanut butter:protein  
+honey:carb
+
+pancake with fruit  
+pancake:carb  
+banana:fruit  
+strawberry:fruit
+
+vegetable wrap  
+tortilla:carb  
+lettuce:vegetable  
+tomato:vegetable
+
+fruit salad with yogurt  
+apple:fruit  
+blueberry:fruit  
+yogurt:dairy
+
+mango chia pudding  
+mango:fruit  
+chia seeds:protein  
+milk:dairy
+
+avocado smoothie  
+avocado:vegetable  
+banana:fruit  
+milk:dairy
+
+peanut butter smoothie  
+banana:fruit  
+peanut butter:protein  
+milk:dairy
+
+spinach and egg  
+egg powder:protein  
+spinach:vegetable  
+olive oil:carb
+
+fruit and nut mix  
+almonds:protein  
+banana:fruit  
+raisins:fruit
+
+sweet potato fries  
+sweet potato:vegetable  
+olive oil:carb  
+salt:carb
+
+chicken and rice  
+chicken:protein  
+rice:carb  
+peas:vegetable
+
+greek yogurt and berries  
+greek yogurt:dairy  
+blueberry:fruit  
+honey:carb
+
+egg muffins  
+egg powder:protein  
+cheese:dairy  
+spinach:vegetable
+
+spinach salad  
+spinach:vegetable  
+tomato:vegetable  
+cheese:dairy
+
+cucumber sandwiches  
+bread:carb  
+cucumber:vegetable  
+cream cheese:dairy
+
+avocado toast with egg  
+avocado:vegetable  
+bread:carb  
+egg powder:protein
+
+roasted carrots  
+carrot:vegetable  
+olive oil:carb  
+salt:carb
+
+tomato soup  
+tomato:vegetable  
+onion:vegetable  
+cream:dairy
+
+cottage cheese with fruit  
+cottage cheese:dairy  
+peach:fruit  
+honey:carb
+
+grilled chicken  
+chicken:protein  
+olive oil:carb  
+lemon:fruit
+
+scrambled eggs with avocado  
+egg powder:protein  
+avocado:vegetable  
+cheese:dairy
+
+cheese and crackers  
+cheese:dairy  
+crackers:carb
+
+apple chips  
+apple:fruit  
+cinnamon:carb
+
+tomato and mozzarella  
+tomato:vegetable  
+mozzarella:dairy  
+olive oil:carb
+
+carrot and hummus  
+carrot:vegetable  
+hummus:protein
+
+egg salad wrap  
+tortilla:carb  
+egg powder:protein  
+lettuce:vegetable
+
+fruit sandwich  
+banana:fruit  
+bread:carb  
+peanut butter:protein
+
+pumpkin soup  
+pumpkin:vegetable  
+onion:vegetable  
+cream:dairy
+
+broccoli and cheese  
+broccoli:vegetable  
+cheese:dairy  
+butter:dairy
+
+apple cinnamon oats  
+oats:carb  
+apple:fruit  
+cinnamon:carb
+
+potato salad  
+potato:vegetable  
+mayo:carb  
+egg powder:protein
+
+greek salad  
+cucumber:vegetable  
+tomato:vegetable  
+feta:dairy
+
+roasted potato  
+potato:vegetable  
+olive oil:carb  
+garlic:carb
+
+banana smoothie  
+banana:fruit  
+milk:dairy  
+yogurt:dairy
+
+spinach and feta omelette  
+egg powder:protein  
+spinach:vegetable  
+feta:dairy
+
+hummus with pita  
+hummus:protein  
+pita:carb
+
+fruit and cottage cheese  
+peach:fruit  
+cottage cheese:dairy  
+honey:carb
+
+banana pancakes  
+banana:fruit  
+flour:carb  
+egg powder:protein
+
+roasted sweet potato  
+sweet potato:vegetable  
+olive oil:carb  
+paprika:carb
+
+cheese and tomato  
+tomato:vegetable  
+cheese:dairy
+
+apple cinnamon yogurt  
+apple:fruit  
+cinnamon:carb  
+yogurt:dairy
+
+pasta with veggies  
+pasta:carb  
+broccoli:vegetable  
+tomato:vegetable
+
+salmon with rice  
+salmon:protein  
+rice:carb  
+lemon:fruit
+
+fruit smoothie bowl  
+mango:fruit  
+banana:fruit  
+yogurt:dairy
+
+avocado and tomato salad  
+avocado:vegetable  
+tomato:vegetable  
+olive oil:carb
+
+tomato sauce  
+tomato:vegetable  
+garlic:vegetable  
+olive oil:carb
+
+grilled vegetables  
+bell pepper:vegetable  
+zucchini:vegetable  
+eggplant:vegetable
+
+baked salmon  
+salmon:protein  
+lemon:fruit  
+garlic:vegetable
+
+fruit sorbet  
+mango:fruit  
+sugar:carb  
+lime:fruit
+
+peanut butter sandwich  
+bread:carb  
+peanut butter:protein  
+honey:carb
+
+carrot soup  
+carrot:vegetable  
+onion:vegetable  
+cream:dairy
+
+tuna salad  
+tuna:protein  
+lettuce:vegetable  
+tomato:vegetable
+
+chicken stir-fry 
+chicken:protein
+broccoli:vegetable
+carrot:vegetable
+rice:carb
+
+greek yogurt with fruit 
+greek yogurt:dairy
+blueberry:fruit
+strawberry:fruit
+
+tuna melt 
+tuna:protein
+bread:carb
+cheese:dairy
+
+vegetable soup 
+carrot:vegetable
+onion:vegetable
+potato:vegetable
+
+scrambled eggs with cheese 
+egg powder:protein
+cheese:dairy
+
+fruit salad with honey 
+apple:fruit
+banana:fruit
+honey:carb
+
+lentil soup 
+lentils:protein
+carrot:vegetable
+onion:vegetable
+
+salmon with asparagus 
+salmon:protein
+asparagus:vegetable
+
+cottage cheese with fruit 
+cottage cheese:dairy
+peach:fruit
+blueberry:fruit
+
+turkey sandwich 
+turkey:protein
+bread:carb
+lettuce:vegetable
+
+oatmeal with berries 
+oats:carb
+blueberry:fruit
+strawberry:fruit
+
+chicken breast with spinach 
+chicken:protein
+spinach:vegetable
+
+banana smoothie 
+banana:fruit
+yogurt:dairy
+milk:dairy
+
+cheese quesadilla 
+tortilla:carb
+cheese:dairy
+
+veggie burger 
+black beans:protein
+onion:vegetable
+bun:carb
+
+avocado toast 
+bread:carb
+avocado:vegetable
+
+yogurt parfait 
+yogurt:dairy
+granola:carb
+fruit:fruit 
+
+chicken noodle soup 
+chicken:protein
+noodles:carb
+carrot:vegetable
+
+beef stew 
+beef:protein
+potato:vegetable
+carrot:vegetable
+
+mac and cheese 
+macaroni:carb
+cheese:dairy
+
+grilled cheese 
+bread:carb
+cheese:dairy
+
+tuna salad sandwich 
+tuna:protein
+bread:carb
+lettuce:vegetable
+
+vegetable stir-fry 
+broccoli:vegetable
+carrot:vegetable
+onion:vegetable
+
+fruit smoothie 
+banana:fruit
+strawberry:fruit
+yogurt:dairy
+
+egg salad sandwich 
+egg powder:protein
+bread:carb
+lettuce:vegetable
+
+chicken caesar salad 
+chicken:protein
+romaine lettuce:vegetable
+croutons:carb
+
+pasta with marinara sauce 
+pasta:carb
+marinara sauce:vegetable 
+
+scrambled eggs with spinach 
+egg powder:protein
+spinach:vegetable
+
+grilled salmon 
+salmon:protein
+
+rice pudding 
+rice:carb
+milk:dairy
+
+lentil soup 
+lentils:protein
+carrot:vegetable
+onion:vegetable
+
+chicken curry 
+chicken:protein
+coconut milk:dairy
+
+vegetable curry 
+cauliflower:vegetable
+potato:vegetable
+coconut milk:dairy
+
+beef tacos 
+beef:protein
+tortilla:carb
+lettuce:vegetable
+
+fish tacos 
+fish:protein
+tortilla:carb
+cabbage:vegetable
+
+falafel wrap 
+falafel:protein
+pita bread:carb
+hummus:protein
+
+hummus and veggies 
+hummus:protein
+carrot:vegetable
+cucumber:vegetable
+
+fruit salad 
+apple:fruit
+banana:fruit
+grapes:fruit
+
+greek salad 
+cucumber:vegetable
+tomato:vegetable
+feta cheese:dairy
+
+caprese salad 
+tomato:vegetable
+mozzarella:dairy
+basil:vegetable
+
+chicken and rice 
+chicken:protein
+rice:carb
+peas:vegetable
+
+beef and broccoli 
+beef:protein
+broccoli:vegetable
+rice:carb
+
+shrimp scampi 
+shrimp:protein
+pasta:carb
+garlic:vegetable
+
+chicken stir-fry 
+chicken:protein
+broccoli:vegetable
+carrot:vegetable
+
+vegetable stir-fry 
+broccoli:vegetable
+carrot:vegetable
+onion:vegetable
+
+lentil soup 
+lentils:protein
+carrot:vegetable
+onion:vegetable
+
+chicken noodle soup 
+chicken:protein
+noodles:carb
+carrot:vegetable
+
+beef stew 
+beef:protein
+potato:vegetable
+carrot:vegetable
+
+mac and cheese 
+macaroni:carb
+cheese:dairy
+
+grilled cheese 
+bread:carb
+cheese:dairy
+
+tuna salad sandwich 
+tuna:protein
+bread:carb
+lettuce:vegetable
+
+chicken caesar salad 
+chicken:protein
+romaine lettuce:vegetable
+croutons:carb
+
+pasta with marinara sauce 
+pasta:carb
+marinara sauce:vegetable 
+
+scrambled eggs with spinach 
+egg powder:protein
+spinach:vegetable
+
+grilled salmon 
+salmon:protein
+
+rice pudding 
+rice:carb
+milk:dairy
+
+lentil soup 
+lentils:protein
+carrot:vegetable
+onion:vegetable
+
+chicken curry 
+chicken:protein
+coconut milk:dairy
+
+vegetable curry 
+cauliflower:vegetable
+potato:vegetable
+coconut milk:dairy
+
+beef tacos 
+beef:protein
+tortilla:carb
+lettuce:vegetable
+
+fish tacos 
+fish:protein
+tortilla:carb
+cabbage:vegetable
+
+falafel wrap 
+falafel:protein
+pita bread:carb
+hummus:protein
+
+hummus and veggies 
+hummus:protein
+carrot:vegetable
+cucumber:vegetable
+
+fruit salad 
+apple:fruit
+banana:fruit
+grapes:fruit
+
+greek salad 
+cucumber:vegetable
+tomato:vegetable
+feta cheese:dairy
+
+caprese salad 
+tomato:vegetable
+mozzarella:dairy
+basil:vegetable
+
+chicken and rice 
+chicken:protein
+rice:carb
+peas:vegetable
+
+beef and broccoli 
+beef:protein
+broccoli:vegetable
+rice:carb
+
+shrimp scampi 
+shrimp:protein
+pasta:carb
+garlic:vegetable
+
+chicken stir-fry 
+chicken:protein
+broccoli:vegetable
+carrot:vegetable
+
+vegetable stir-fry 
+broccoli:vegetable
+carrot:vegetable
+onion:vegetable
+
+lentil soup 
+lentils:protein
+carrot:vegetable
+onion:vegetable
+
+chicken noodle soup 
+chicken:protein
+noodles:carb
+carrot:vegetable
+
+beef stew 
+beef:protein
+potato:vegetable
+carrot:vegetable
+
+mac and cheese 
+macaroni:carb
+cheese:dairy
+
+grilled cheese 
+bread:carb
+cheese:dairy
+
+tuna salad sandwich 
+tuna:protein
+bread:carb
+lettuce:vegetable
+
+chicken caesar salad 
+chicken:protein
+romaine lettuce:vegetable
+croutons:carb
+
+pasta with marinara sauce 
+pasta:carb
+marinara sauce:vegetable 
+
+scrambled eggs with spinach 
+egg powder:protein
+spinach:vegetable
+
+grilled salmon 
+salmon:protein
+
+rice pudding 
+rice:carb
+milk:dairy
+
+lentil soup 
+lentils:protein
+carrot:vegetable
+onion:vegetable
+
+chicken curry 
+chicken:protein
+coconut milk:dairy
+
+vegetable curry 
+cauliflower:vegetable
+potato:vegetable
+coconut milk:dairy
+
+beef tacos 
+beef:protein
+tortilla:carb
+lettuce:vegetable
+
+fish tacos 
+fish:protein
+tortilla:carb
+cabbage:vegetable
+
+falafel wrap 
+falafel:protein
+pita bread:carb
+hummus:protein
+
+hummus and veggies 
+hummus:protein
+carrot:vegetable
+cucumber:vegetable
+
+fruit salad 
+apple:fruit
+banana:fruit
+grapes:fruit
+
+greek salad 
+cucumber:vegetable
+tomato:vegetable
+feta cheese:dairy
+
+caprese salad 
+tomato:vegetable
+mozzarella:dairy
+basil:vegetable
+
+chicken and rice 
+chicken:protein
+rice:carb
+peas:vegetable
+
+beef and broccoli 
+beef:protein
+broccoli:vegetable
+rice:carb
+
+shrimp scampi 
+shrimp:protein
+pasta:carb
+garlic:vegetable
+
+chicken stir-fry 
+chicken:protein
+broccoli:vegetable
+carrot:vegetable
+
+vegetable stir-fry 
+broccoli:vegetable
+carrot:vegetable
+onion:vegetable
+
+lentil soup 
+lentils:protein
+carrot:vegetable
+onion:vegetable
+
+chicken noodle soup 
+chicken:protein
+noodles:carb
+carrot:vegetable
+
+beef stew 
+beef:protein
+potato:vegetable
+carrot:vegetable
+
+mac and cheese 
+macaroni:carb
+cheese:dairy
+
+grilled cheese 
+bread:carb
+cheese:dairy
+
+tuna salad sandwich 
+tuna:protein
+bread:carb
+lettuce:vegetable
+
+chicken caesar salad 
+chicken:protein
+romaine lettuce:vegetable
+croutons:carb
+
+pasta with marinara sauce 
+pasta:carb
+marinara sauce:vegetable 
+
+scrambled eggs with spinach 
+egg powder:protein
+spinach:vegetable
+
+grilled salmon 
+salmon:protein
+
+rice pudding 
+rice:carb
+milk:dairy
+
+lentil soup 
+lentils:protein
+carrot:vegetable
+onion:vegetable
+
+chicken curry 
+chicken:protein
+coconut milk:dairy
+
+vegetable curry 
+cauliflower:vegetable
+potato:vegetable
+coconut milk:dairy
+
+beef tacos 
+beef:protein
+tortilla:carb
+lettuce:vegetable
+
+fish tacos 
+fish:protein
+tortilla:carb
+cabbage:vegetable
+
+falafel wrap 
+falafel:protein
+pita bread:carb
+hummus:protein
+
+hummus and veggies 
+hummus:protein
+carrot:vegetable
+cucumber:vegetable
+
+fruit salad 
+apple:fruit
+banana:fruit
+grapes:fruit
+
+greek salad 
+cucumber:vegetable
+tomato:vegetable
+feta cheese:dairy
+
+caprese salad 
+tomato:vegetable
+mozzarella:dairy
+basil:vegetable
+
+chicken and rice 
+chicken:protein
+rice:carb
+peas:vegetable
+
+beef and broccoli 
+beef:protein
+broccoli:vegetable
+rice:carb

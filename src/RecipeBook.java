@@ -1,17 +1,36 @@
-import java.util.LinkedList; //Asked chatgpt about the inclusion of the linked list and it suggested simply replacing the arraylist here with a linked list
+/**
+ * author: Yazan Alhajzein
+ * date: 01/19/2025
+ * RecipeBook class - represents a recipe book
+ */
 
-public class RecipeBook {
-    private LinkedList<Recipe> recipes;
+ public class RecipeBook {
+    private MyLinkedList<Recipe> recipes;  // List of recipes 
 
-    public RecipeBook(LinkedList<Recipe> recipes) {
-        this.recipes = recipes;
+    /**
+     * Constructor to initialize the RecipeBook with a list of recipes.
+     * 
+     * @param recipes The list of recipes to initialize the RecipeBook with.
+     */
+    public RecipeBook(MyLinkedList<Recipe> recipes) {
+        this.recipes = recipes; 
     }
 
-    public LinkedList<Recipe> getRecipes() {
+    /**
+     * Getter method to return the list of recipes in the RecipeBook.
+     * 
+     * @return The list of recipes stored in the RecipeBook.
+     */
+    public MyLinkedList<Recipe> getRecipes() {
         return recipes;
     }
 
+    /**
+     * Method to add a new recipe to the recipe book.
+     * 
+     * @param recipe The recipe to be added to the RecipeBook.
+     */
     public void addRecipe(Recipe recipe) {
-        recipes.add(recipe);
+        recipes.append(recipe);  // Append the new recipe to the linked list
     }
 }
